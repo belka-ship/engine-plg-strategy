@@ -6,6 +6,9 @@
 <link rel="icon" type="image/png" href="favicon.png">
 <title>Engine — Principal PM Vision</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<style>[x-cloak] { display: none !important; }</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -161,7 +164,7 @@
     <img src="engine-logo.svg" alt="Engine" class="h-10 w-auto invert">
   </div>
   <div class="mono text-xs tracking-widest">
-    <span id="slide-current">01</span> <span class="opacity-40">/ 10</span>
+    <span id="slide-current">01</span> <span class="opacity-40">/ 09</span>
   </div>
 </div>
 
@@ -189,7 +192,7 @@
       <div class="mt-16 flex items-end gap-8 border-t hairline pt-8">
         <div class="reveal reveal-3 flex-1">
           <p class="text-xl md:text-2xl leading-snug font-light">
-            Driving Lodging GBV through a consumer-grade, product-led growth engine.
+            A product-led strategy to drive Lodging GBV through frontier consumer-grade UX.
           </p>
         </div>
         <div class="reveal reveal-4">
@@ -205,35 +208,32 @@
   <!-- SLIDE 02: STRATEGIC PILLARS -->
   <section class="slide" data-slide="02" data-label="Strategy">
     <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>01 — Strategic Pillars</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Five pillars. One compounding thesis.</h2>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>01 — Engine's Mission and Objectives</div>
+      <h2 class="reveal reveal-2 mt-8 max-w-5xl text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight leading-snug">
+        Make travel effortless <span class="muted font-light">and give businesses, big and small, the opportunity to</span> enjoy the journey again.
+      </h2>
 
-      <div class="mt-16 border-t hairline">
+      <div class="mt-20 border-t hairline">
         <div class="grid grid-cols-1 md:grid-cols-5 divide-y md:divide-y-0 md:divide-x hairline">
-          <div class="py-8 md:px-6 md:py-10 reveal reveal-3">
-            <div class="mono text-xs muted mb-6">01</div>
-            <h3 class="h-2 mb-4">Drive GBV Growth</h3>
-            <p class="text-sm muted leading-relaxed">Top-line compounding via higher AOV and repeat frequency.</p>
+          <div class="py-8 md:px-5 md:py-10 reveal reveal-3">
+            <div class="mono text-xs muted mb-10">01</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Drive GBV Growth</h3>
           </div>
-          <div class="py-8 md:px-6 md:py-10 reveal reveal-4">
-            <div class="mono text-xs muted mb-6">02</div>
-            <h3 class="h-2 mb-4">Transition to PLG</h3>
-            <p class="text-sm muted leading-relaxed">Bottom-up adoption from traveler love, not procurement.</p>
+          <div class="py-8 md:px-5 md:py-10 reveal reveal-4">
+            <div class="mono text-xs muted mb-10">02</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Transition to PLG</h3>
           </div>
-          <div class="py-8 md:px-6 md:py-10 reveal reveal-5">
-            <div class="mono text-xs muted mb-6">03</div>
-            <h3 class="h-2 mb-4">Capture Unmanaged SMEs</h3>
-            <p class="text-sm muted leading-relaxed">Win the $500B knowledge-worker whitespace.</p>
+          <div class="py-8 md:px-5 md:py-10 reveal reveal-5">
+            <div class="mono text-xs muted mb-10">03</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Capture Unmanaged SMB Travel</h3>
           </div>
-          <div class="py-8 md:px-6 md:py-10 reveal reveal-6">
-            <div class="mono text-xs muted mb-6">04</div>
-            <h3 class="h-2 mb-4">Centralize Travel Mgmt</h3>
-            <p class="text-sm muted leading-relaxed">One platform: policy, booking, expense, insights.</p>
+          <div class="py-8 md:px-5 md:py-10 reveal reveal-6">
+            <div class="mono text-xs muted mb-10">04</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Centralize Travel Management</h3>
           </div>
-          <div class="py-8 md:px-6 md:py-10 reveal reveal-7">
-            <div class="mono text-xs muted mb-6">05</div>
-            <h3 class="h-2 mb-4">Distribution Moats</h3>
-            <p class="text-sm muted leading-relaxed">Data network effects + wholesale supply + retention.</p>
+          <div class="py-8 md:px-5 md:py-10 reveal reveal-7">
+            <div class="mono text-xs muted mb-10">05</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Establish Distribution and Retention Moats</h3>
           </div>
         </div>
       </div>
@@ -243,59 +243,59 @@
   <!-- SLIDE 03: MARKET -->
   <section class="slide" data-slide="03" data-label="Market">
     <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>02 — The Market Opportunity</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Who we build for.</h2>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>02 — Market Opportunity</div>
+      <h2 class="reveal reveal-2 mt-6 max-w-4xl text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none">Who we build for.</h2>
 
-      <div class="mt-16 border-t hairline">
+      <div class="mt-14 border-t hairline">
         <!-- Row 1 -->
-        <div class="market-row border-b hairline py-8 md:py-10 grid grid-cols-12 items-baseline gap-4 reveal reveal-3">
+        <div class="market-row border-b hairline py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-3">
           <div class="col-span-1 mono text-xs muted">01</div>
           <div class="col-span-12 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Deskless Workforce SMBs</h3>
-            <div class="eyebrow muted mt-2">Current Core · Dominant</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight whitespace-nowrap">Field Professionals (SMBs)</h3>
+            <div class="eyebrow muted mt-1.5">Unmanaged Travel · Current Core Clients</div>
           </div>
-          <div class="col-span-6 md:col-span-3 num-md">$400B</div>
-          <div class="col-span-6 md:col-span-3 text-sm muted">Medium GBV growth · Highly operational · Defend &amp; expand</div>
+          <div class="col-span-6 md:col-span-2 text-3xl md:text-4xl font-extrabold tracking-tight">$400B</div>
+          <div class="col-span-6 md:col-span-4 text-xs md:text-sm muted">Medium GBV growth · Defend &amp; expand</div>
           <div class="col-span-12 md:col-span-1 market-arrow flex md:justify-end">
             <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><path d="M0 6h22M17 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
         </div>
         <!-- Row 2 - ACTIVE -->
-        <div class="market-row border-b hairline py-8 md:py-10 grid grid-cols-12 items-baseline gap-4 reveal reveal-4 relative">
-          <div class="absolute left-0 top-0 bottom-0 w-[2px] accent-bg"></div>
+        <div class="market-row border-b hairline py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-4 relative">
+          <div class="absolute -left-4 md:-left-6 top-0 bottom-0 w-[3px] accent-bg"></div>
           <div class="col-span-1 mono text-xs accent">02</div>
           <div class="col-span-12 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight flex items-center gap-3">Knowledge Worker SMBs <span class="eyebrow accent-bg text-black px-2 py-0.5">ACTIVE</span></h3>
-            <div class="eyebrow muted mt-2">The PLG Frontier</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight whitespace-nowrap">Knowledge Professionals (SMBs)</h3>
+            <div class="eyebrow accent mt-1.5">Unmanaged Travel · Natural PLG wedge</div>
           </div>
-          <div class="col-span-6 md:col-span-3 num-md">$500B</div>
-          <div class="col-span-6 md:col-span-3 text-sm">High GBV growth · Legacy UX unserved · Natural PLG wedge</div>
+          <div class="col-span-6 md:col-span-2 text-3xl md:text-4xl font-extrabold tracking-tight">$500B</div>
+          <div class="col-span-6 md:col-span-4 text-xs md:text-sm">High GBV growth · Largely unserved despite competition</div>
           <div class="col-span-12 md:col-span-1 market-arrow flex md:justify-end">
             <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><path d="M0 6h22M17 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
         </div>
         <!-- Row 3 -->
-        <div class="market-row border-b hairline py-8 md:py-10 grid grid-cols-12 items-baseline gap-4 reveal reveal-5">
+        <div class="market-row border-b hairline py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-5">
           <div class="col-span-1 mono text-xs muted">03</div>
           <div class="col-span-12 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Big Enterprise</h3>
-            <div class="eyebrow muted mt-2">Managed Travel · Concur Escape</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight whitespace-nowrap">Big Enterprise</h3>
+            <div class="eyebrow muted mt-1.5">Managed Travel · Concur Escape</div>
           </div>
-          <div class="col-span-6 md:col-span-3 num-md">$700B</div>
-          <div class="col-span-6 md:col-span-3 text-sm muted">High GBV · Forward-deployed · Risk of SMB dilution</div>
+          <div class="col-span-6 md:col-span-2 text-3xl md:text-4xl font-extrabold tracking-tight">$700B</div>
+          <div class="col-span-6 md:col-span-4 text-xs md:text-sm muted">High GBV growth · Risk of SMB focus dilution</div>
           <div class="col-span-12 md:col-span-1 market-arrow flex md:justify-end">
             <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><path d="M0 6h22M17 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
         </div>
         <!-- Row 4 -->
-        <div class="market-row py-8 md:py-10 grid grid-cols-12 items-baseline gap-4 reveal reveal-6">
+        <div class="market-row py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-6">
           <div class="col-span-1 mono text-xs muted">04</div>
           <div class="col-span-12 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Personal / Leisure</h3>
-            <div class="eyebrow muted mt-2">B2B2C Arbitrage Play</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight whitespace-nowrap">Personal / Leisure</h3>
+            <div class="eyebrow muted mt-1.5">Organic B2C Capture</div>
           </div>
-          <div class="col-span-6 md:col-span-3 num-md">$2.2T</div>
-          <div class="col-span-6 md:col-span-3 text-sm muted">Very high potential · Strong incumbents · Loyalty arbitrage</div>
+          <div class="col-span-6 md:col-span-2 text-3xl md:text-4xl font-extrabold tracking-tight">$2.2T</div>
+          <div class="col-span-6 md:col-span-4 text-xs md:text-sm muted">Very high GBV growth · Strong incumbents</div>
           <div class="col-span-12 md:col-span-1 market-arrow flex md:justify-end">
             <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><path d="M0 6h22M17 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
@@ -307,52 +307,83 @@
   <!-- SLIDE 04: PERSONAS -->
   <section class="slide" data-slide="04" data-label="Personas">
     <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>03 — The Core Needs</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Three personas. One loop.</h2>
-      <p class="muted text-lg mt-6 max-w-2xl reveal reveal-3 font-light">The traveler is the growth engine. The travel manager is the gatekeeper. Finance writes the check. We win all three — but we start with the traveler.</p>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>03 — USER NEEDS & PROBLEMS</div>
+      <h2 class="reveal reveal-2 mt-6 max-w-4xl text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none">The problems we solve.</h2>
+      <p class="muted text-base md:text-lg mt-6 max-w-2xl reveal reveal-3 font-light leading-snug">Finance owns the budget and Travel Managers own the risk, but the Traveler dictates platform adoption. They are our primary growth lever.</p>
 
-      <div class="mt-16 border-t hairline grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x hairline">
+      <div class="mt-14 border-t hairline reveal reveal-4" x-data="{ open: 0 }" x-cloak>
         <!-- Traveler -->
-        <div class="persona-col py-10 md:px-8 reveal reveal-4 relative">
-          <div class="absolute top-0 left-0 right-0 h-[2px] accent-bg md:left-auto md:right-auto md:h-auto md:top-0 md:bottom-0 md:w-[2px]"></div>
-          <div class="flex items-center justify-between mb-12">
-            <div class="mono text-xs muted">01 / TRAVELER</div>
-            <div class="eyebrow accent">PLG CATALYST</div>
+        <div class="persona-accordion border-b hairline" :class="open === 1 ? 'is-open' : ''">
+          <button @click="open = open === 1 ? 0 : 1" class="w-full text-left py-6 grid grid-cols-12 items-center gap-4 group relative">
+            <div class="absolute -left-4 md:-left-6 top-0 bottom-0 w-[3px] accent-bg transition-opacity duration-500" :class="open === 1 ? 'opacity-100' : 'opacity-0'"></div>
+            <div class="col-span-1 mono text-xs" :class="open === 1 ? 'accent' : 'muted'">01</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-3xl md:text-4xl font-bold tracking-tight leading-none">Traveler</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 1 ? 'accent' : 'muted'">Wants frictionless trips</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 1 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 1" x-collapse>
+            <div class="pb-8 pl-[calc(8.333%+1rem)] md:pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3 max-w-4xl">
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">01</span><span>Find me the perfect hotel instantly.</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">02</span><span>Reward me for saving the company money.</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">03</span><span>Treat me like a VIP upon arrival.</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">04</span><span>Zero out-of-pocket expenses within policy.</span></div>
+            </div>
           </div>
-          <h3 class="text-4xl md:text-5xl font-bold tracking-tight leading-none">The Traveler</h3>
-          <p class="eyebrow muted mt-4">Wants frictionless trips</p>
-          <ul class="mt-10 space-y-5 text-base">
-            <li class="flex gap-3"><span class="mono text-xs muted pt-1">01</span><span>"Find me the perfect hotel instantly."</span></li>
-            <li class="flex gap-3"><span class="mono text-xs muted pt-1">02</span><span>"Reward me for saving the company money."</span></li>
-            <li class="flex gap-3"><span class="mono text-xs muted pt-1">03</span><span>"Treat me like a VIP upon arrival."</span></li>
-            <li class="flex gap-3"><span class="mono text-xs muted pt-1">04</span><span>"Zero out-of-pocket expenses within policy."</span></li>
-          </ul>
         </div>
         <!-- Travel Manager -->
-        <div class="persona-col py-10 md:px-8 reveal reveal-5">
-          <div class="flex items-center justify-between mb-12">
-            <div class="mono text-xs muted">02 / MANAGER</div>
+        <div class="persona-accordion border-b hairline" :class="open === 2 ? 'is-open' : ''">
+          <button @click="open = open === 2 ? 0 : 2" class="w-full text-left py-6 grid grid-cols-12 items-center gap-4 group relative">
+            <div class="absolute -left-4 md:-left-6 top-0 bottom-0 w-[3px] accent-bg transition-opacity duration-500" :class="open === 2 ? 'opacity-100' : 'opacity-0'"></div>
+            <div class="col-span-1 mono text-xs" :class="open === 2 ? 'accent' : 'muted'">02</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-3xl md:text-4xl font-bold tracking-tight leading-none">Travel Manager</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 2 ? 'accent' : 'muted'">Enforces policy, manages risk</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 2 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 2" x-collapse>
+            <div class="pb-8 pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3 max-w-4xl">
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">01</span><span>Policy compliance at 99%+</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">02</span><span>Duty of care + traveler safety</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">03</span><span>Unified reporting &amp; audit trail</span></div>
+            </div>
           </div>
-          <h3 class="text-4xl md:text-5xl font-bold tracking-tight leading-none">The Travel Manager</h3>
-          <p class="eyebrow muted mt-4">Enforces policy, manages risk</p>
-          <ul class="mt-10 space-y-5 text-base muted">
-            <li class="flex gap-3"><span class="mono text-xs pt-1">01</span><span>Policy compliance at 99%+</span></li>
-            <li class="flex gap-3"><span class="mono text-xs pt-1">02</span><span>Duty of care + traveler safety</span></li>
-            <li class="flex gap-3"><span class="mono text-xs pt-1">03</span><span>Unified reporting &amp; audit trail</span></li>
-          </ul>
         </div>
         <!-- Finance -->
-        <div class="persona-col py-10 md:px-8 reveal reveal-6">
-          <div class="flex items-center justify-between mb-12">
-            <div class="mono text-xs muted">03 / FINANCE</div>
+        <div class="persona-accordion border-b hairline" :class="open === 3 ? 'is-open' : ''">
+          <button @click="open = open === 3 ? 0 : 3" class="w-full text-left py-6 grid grid-cols-12 items-center gap-4 group relative">
+            <div class="absolute -left-4 md:-left-6 top-0 bottom-0 w-[3px] accent-bg transition-opacity duration-500" :class="open === 3 ? 'opacity-100' : 'opacity-0'"></div>
+            <div class="col-span-1 mono text-xs" :class="open === 3 ? 'accent' : 'muted'">03</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-3xl md:text-4xl font-bold tracking-tight leading-none">Finance Manager</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 3 ? 'accent' : 'muted'">Owns Budget, Manages reconciliation</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 3 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 3" x-collapse>
+            <div class="pb-8 pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3 max-w-4xl">
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">01</span><span>Incentivize employees to voluntarily book below maximum policy rates.</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">02</span><span>Recapture lost capital from unmanaged and out-of-policy rogue spending.</span></div>
+              <div class="flex gap-4 text-base"><span class="mono text-xs muted pt-1.5 shrink-0">03</span><span>Eliminate receipt-chasing with a single, consolidated monthly invoice.</span></div>
+            </div>
           </div>
-          <h3 class="text-4xl md:text-5xl font-bold tracking-tight leading-none">The Finance Manager</h3>
-          <p class="eyebrow muted mt-4">Owns OPEX, needs forecasting</p>
-          <ul class="mt-10 space-y-5 text-base muted">
-            <li class="flex gap-3"><span class="mono text-xs pt-1">01</span><span>Reduce total T&amp;E OPEX</span></li>
-            <li class="flex gap-3"><span class="mono text-xs pt-1">02</span><span>Predictable spend by cost center</span></li>
-            <li class="flex gap-3"><span class="mono text-xs pt-1">03</span><span>Automated reconciliation</span></li>
-          </ul>
         </div>
       </div>
     </div>
@@ -362,52 +393,52 @@
   <section class="slide dark" data-slide="05" data-label="Journey">
     <div class="slide-inner">
       <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>04 — The 11-Star Experience</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-5xl">Alex, the Enterprise AE.</h2>
-      <p class="muted text-lg mt-6 max-w-2xl reveal reveal-3 font-light">Travels 3x/month. Needs a gym, a quiet room, and under 15 minutes' walk to the client. Here's how Engine earns the eleventh star.</p>
+      <h2 class="reveal reveal-2 mt-6 max-w-5xl text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none">Meet Alex, the Account Executive.</h2>
+      <p class="muted text-sm md:text-base mt-5 max-w-2xl reveal reveal-3 font-light leading-snug">Travels 3x/month. Needs a gym, a quiet room, and under 15 minutes' walk to the client.</p>
 
-      <div class="mt-16 border-t hairline-inverse">
+      <div class="mt-10 border-t hairline-inverse">
         <!-- Step 1 -->
-        <div class="border-b hairline-inverse py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-4">
-          <div class="col-span-2 md:col-span-1 journey-num muted">01</div>
-          <div class="col-span-10 md:col-span-4">
-            <div class="eyebrow accent mb-3">Intent Capture</div>
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Before Alex opens a browser.</h3>
+        <div class="border-b hairline-inverse py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-4">
+          <div class="col-span-1 mono text-xs accent">01</div>
+          <div class="col-span-11 md:col-span-4">
+            <div class="eyebrow accent mb-2">Proactive Orchestration</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Before Alex opens a browser.</h3>
           </div>
-          <div class="col-span-12 md:col-span-7 text-base md:text-lg font-light leading-relaxed muted">
-            Alex agrees to a NY trip via Slack. Engine <span class="text-white font-normal">proactively catches intent</span> and suggests a bundled itinerary — instantly.
+          <div class="col-span-12 md:col-span-7 text-sm md:text-base font-light leading-snug muted">
+            Alex agrees to visit a NYC client on their last Zoom catchup. Engine <span class="text-white font-normal">understands the intent</span>, proactively suggests consolidating other NYC meetings, and delivers a complete flight and hotel itinerary.
           </div>
         </div>
         <!-- Step 2 -->
-        <div class="border-b hairline-inverse py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-5">
-          <div class="col-span-2 md:col-span-1 journey-num muted">02</div>
-          <div class="col-span-10 md:col-span-4">
-            <div class="eyebrow accent mb-3">Perfect Match</div>
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">The hotel it already knows he loves.</h3>
+        <div class="border-b hairline-inverse py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-5">
+          <div class="col-span-1 mono text-xs accent">02</div>
+          <div class="col-span-11 md:col-span-4">
+            <div class="eyebrow accent mb-2">Traveler DNA Match</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Perfect hotel match, zero search.</h3>
           </div>
-          <div class="col-span-12 md:col-span-7 text-base md:text-lg font-light leading-relaxed muted">
-            Engine recommends Alex's favorite 4-star boutique — <span class="text-white font-normal">rated 5 stars previously, raving Slack reviews from colleagues</span>. 10-minute walk. Premium gym. Done.
+          <div class="col-span-12 md:col-span-7 text-sm md:text-base font-light leading-snug muted">
+            Engine selects a hotel <span class="text-white font-normal">which is part of the chain Alex loves</span>. It's exactly a 10-minute walk from both client offices and features the premium gym he requires.
           </div>
         </div>
         <!-- Step 3 -->
-        <div class="border-b hairline-inverse py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-6">
-          <div class="col-span-2 md:col-span-1 journey-num muted">03</div>
-          <div class="col-span-10 md:col-span-4">
-            <div class="eyebrow accent mb-3">Arbitrage Reward</div>
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Policy discipline becomes delight.</h3>
+        <div class="border-b hairline-inverse py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-6">
+          <div class="col-span-1 mono text-xs accent">03</div>
+          <div class="col-span-11 md:col-span-4">
+            <div class="eyebrow accent mb-2">Behavioral Reward</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Policy discipline pays.</h3>
           </div>
-          <div class="col-span-12 md:col-span-7 text-base md:text-lg font-light leading-relaxed muted">
-            Room is <span class="text-white font-normal">$75 under the corporate nightly limit</span>. Alex is instantly rewarded with Engine Personal Travel Credit.
+          <div class="col-span-12 md:col-span-7 text-sm md:text-base font-light leading-snug muted">
+            Because the selected hotel is cheaper than his company's maximum nightly rate, Alex is <span class="text-white font-normal">instantly rewarded with Engine credit</span> he can use toward his next personal vacation.
           </div>
         </div>
         <!-- Step 4 -->
-        <div class="py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-7">
-          <div class="col-span-2 md:col-span-1 journey-num accent">04</div>
-          <div class="col-span-10 md:col-span-4">
-            <div class="eyebrow accent mb-3">VIP Arrival</div>
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">The eleventh star.</h3>
+        <div class="py-5 md:py-6 grid grid-cols-12 items-center gap-4 reveal reveal-7">
+          <div class="col-span-1 mono text-xs accent">04</div>
+          <div class="col-span-11 md:col-span-4">
+            <div class="eyebrow accent mb-2">Zero-Friction Arrival</div>
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">VIP treatment at the hotel.</h3>
           </div>
-          <div class="col-span-12 md:col-span-7 text-base md:text-lg font-light leading-relaxed muted">
-            Traveler DNA ensures high-floor, away-from-elevator. Upon landing: <span class="text-white font-normal">"Room upgraded. Digital key active."</span> Zero front-desk friction.
+          <div class="col-span-12 md:col-span-7 text-sm md:text-base font-light leading-snug muted">
+            The room is auto-selected on a <span class="text-white font-normal"></span>high floor away from elevators</span>. Knowing he has an early flight, <span class="text-white font-normal">early check-in is secured</span>. Upon landing, he gets a notification that <span class="text-white font-normal">he received a free room upgrade</span>. Digital key active, he is bypassing the front desk entirely.
           </div>
         </div>
       </div>
@@ -417,52 +448,130 @@
   <!-- SLIDE 06: PRODUCT ARSENAL -->
   <section class="slide" data-slide="06" data-label="Solutions">
     <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>05 — The Product Arsenal</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Five products. One flywheel.</h2>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>05 — CORE SOLUTIONS</div>
+      <h2 class="reveal reveal-2 mt-6 max-w-4xl text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none">Five paths. One primary bet.</h2>
 
-      <div class="mt-16 border-t hairline">
-        <!-- Row 1: Recommendation Engine -->
-        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-baseline reveal reveal-3 market-row">
-          <div class="col-span-1 mono text-xs accent">01</div>
-          <div class="col-span-11 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight flex items-center gap-3 flex-wrap">B2B Recommendation Engine<span class="eyebrow accent-bg text-black px-2 py-0.5">PRIMARY BET</span></h3>
-          </div>
-          <div class="col-span-12 md:col-span-5 text-sm muted leading-relaxed">Social proof labels · Traveler DNA sorting · NLP semantic search. The flywheel's flywheel.</div>
-          <div class="col-span-12 md:col-span-2 md:text-right">
-            <a href="#" onclick="goToSlide(6);return false;" class="hover-line mono text-xs font-semibold inline-flex items-center gap-2">VIEW EXECUTION → </a>
+      <div class="mt-10 border-t hairline reveal reveal-3" x-data="{ open: 0 }" x-cloak>
+        <!-- 01 Recommendation Engine -->
+        <div class="border-b hairline">
+          <button @click="open = open === 1 ? 0 : 1" class="w-full text-left py-5 grid grid-cols-12 items-center gap-4 group relative">
+            <div class="absolute -left-4 md:-left-6 top-0 bottom-0 w-[3px] accent-bg transition-opacity duration-500" :class="open === 1 ? 'opacity-100' : 'opacity-40'"></div>
+            <div class="col-span-1 mono text-xs accent">01</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-xl md:text-2xl font-bold tracking-tight">Recommendation Engine & Agentic Booking</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow accent">Primary Bet · Intent → Match</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 1 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 1" x-collapse>
+            <div class="pb-6 pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2 max-w-5xl">
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Social proof labels — "booked by X colleagues"</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">b</span><span>Personalized ranking (booking history + popularity)</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">c</span><span>Personalized "why recommended" short description</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">d</span><span>NL preference → hotel recommendation</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">e</span><span>"Ask about this hotel" side panel on results</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">f</span><span>Agentic actions inside the Ask panel</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">g</span><span>Slack agent for recommendation &amp; booking</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">h</span><span>Proprietary reviews · post-checkout AI interview</span></div>
+            </div>
+            <div class="pb-5 pl-[calc(8.333%+1rem)]">
+              <a href="#" onclick="goToSlide(6);return false;" class="hover-line mono text-xs font-semibold inline-flex items-center gap-2 accent">VIEW EXECUTION →</a>
+            </div>
           </div>
         </div>
-        <!-- Row 2 -->
-        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-baseline reveal reveal-4 market-row">
-          <div class="col-span-1 mono text-xs muted">02</div>
-          <div class="col-span-11 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Employee Arbitrage Program</h3>
+        <!-- 02 Employee Reward Program -->
+        <div class="border-b hairline">
+          <button @click="open = open === 2 ? 0 : 2" class="w-full text-left py-5 grid grid-cols-12 items-center gap-4 group">
+            <div class="col-span-1 mono text-xs" :class="open === 2 ? 'accent' : 'muted'">02</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-xl md:text-2xl font-bold tracking-tight">Employee Reward Program</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 2 ? 'accent' : 'muted'">Arbitrage · Personal Credit</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 2 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 2" x-collapse>
+            <div class="pb-6 pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2 max-w-5xl">
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Employer-sponsored traveler credit when booking below policy</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">b</span><span>Credit redeemable on personal travel</span></div>
+            </div>
           </div>
-          <div class="col-span-12 md:col-span-7 text-sm muted leading-relaxed">Employer-sponsored credits for booking under policy. Aligns traveler + finance incentives.</div>
         </div>
-        <!-- Row 3 -->
-        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-baseline reveal reveal-5 market-row">
-          <div class="col-span-1 mono text-xs muted">03</div>
-          <div class="col-span-11 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Supplier Perk Negotiations</h3>
+        <!-- 03 Special Perks -->
+        <div class="border-b hairline">
+          <button @click="open = open === 3 ? 0 : 3" class="w-full text-left py-5 grid grid-cols-12 items-center gap-4 group">
+            <div class="col-span-1 mono text-xs" :class="open === 3 ? 'accent' : 'muted'">03</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-xl md:text-2xl font-bold tracking-tight">Special Perks</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 3 ? 'accent' : 'muted'">Supplier Negotiated</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 3 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 3" x-collapse>
+            <div class="pb-6 pl-[calc(8.333%+1rem)] grid grid-cols-1 gap-y-2 max-w-4xl">
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Hotels offering Engine customers free perks: room upgrade on availability, early check-in / late check-out, on-property credits</span></div>
+            </div>
           </div>
-          <div class="col-span-12 md:col-span-7 text-sm muted leading-relaxed">Automated early check-in, property credits, room upgrades — negotiated at scale.</div>
         </div>
-        <!-- Row 4 -->
-        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-baseline reveal reveal-6 market-row">
-          <div class="col-span-1 mono text-xs muted">04</div>
-          <div class="col-span-11 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Zero-Click Booking</h3>
+        <!-- 04 Zero-click booking -->
+        <div class="border-b hairline">
+          <button @click="open = open === 4 ? 0 : 4" class="w-full text-left py-5 grid grid-cols-12 items-center gap-4 group">
+            <div class="col-span-1 mono text-xs" :class="open === 4 ? 'accent' : 'muted'">04</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-xl md:text-2xl font-bold tracking-tight">Zero-Click Booking</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 4 ? 'accent' : 'muted'">Context-Aware Agents</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 4 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 4" x-collapse>
+            <div class="pb-6 pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2 max-w-5xl">
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Context-aware proactive trip / hotel booking suggestions</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">b</span><span>Slack agent · Gmail &amp; Calendar connect</span></div>
+            </div>
           </div>
-          <div class="col-span-12 md:col-span-7 text-sm muted leading-relaxed">Context-aware push notifications surface the single best option at the right moment.</div>
         </div>
-        <!-- Row 5 -->
-        <div class="py-8 grid grid-cols-12 gap-6 items-baseline reveal reveal-7 market-row">
-          <div class="col-span-1 mono text-xs muted">05</div>
-          <div class="col-span-11 md:col-span-4">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Native Checkout Upsells</h3>
+        <!-- 05 Upgrade/Extra options -->
+        <div class="border-b hairline">
+          <button @click="open = open === 5 ? 0 : 5" class="w-full text-left py-5 grid grid-cols-12 items-center gap-4 group">
+            <div class="col-span-1 mono text-xs" :class="open === 5 ? 'accent' : 'muted'">05</div>
+            <div class="col-span-7 md:col-span-5">
+              <h3 class="text-xl md:text-2xl font-bold tracking-tight">Upgrade / Extra Options</h3>
+            </div>
+            <div class="col-span-3 md:col-span-5 eyebrow" :class="open === 5 ? 'accent' : 'muted'">AOV Lift at Checkout</div>
+            <div class="col-span-1 flex justify-end">
+              <div class="relative w-3 h-3">
+                <div class="absolute top-1/2 left-0 right-0 h-px bg-current -translate-y-1/2"></div>
+                <div class="absolute left-1/2 top-0 bottom-0 w-px bg-current -translate-x-1/2 transition-transform duration-500" :class="open === 5 ? 'scale-y-0' : 'scale-y-100'"></div>
+              </div>
+            </div>
+          </button>
+          <div x-show="open === 5" x-collapse>
+            <div class="pb-6 pl-[calc(8.333%+1rem)] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2 max-w-5xl">
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Room upgrade suggestion</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">b</span><span>Upsells: early check-in, late check-out, high floor</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">c</span><span>Discounted credit to spend on property</span></div>
+              <div class="flex gap-4 text-sm"><span class="mono text-xs muted pt-1 shrink-0">d</span><span>Merchandise</span></div>
+            </div>
           </div>
-          <div class="col-span-12 md:col-span-7 text-sm muted leading-relaxed">1-click room upgrades, flex-cancellation add-ons, loyalty accrual. AOV lift without friction.</div>
         </div>
       </div>
     </div>
@@ -470,201 +579,175 @@
 
   <!-- SLIDE 07: EXECUTION / ROADMAP -->
   <section class="slide" data-slide="07" data-label="Execution">
-    <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>06 — Recommended Solution &amp; Execution</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Building the B2B Conversion Engine.</h2>
-      <p class="muted text-lg mt-6 max-w-3xl reveal reveal-3 font-light">Transitioning Engine from a static search directory to an intent-driven, context-aware recommendation engine that collapses time-to-book from minutes to seconds.</p>
+    <div class="slide-inner relative">
+      <button class="launch-btn absolute top-0 right-0 reveal reveal-1 hidden md:inline-flex" style="top: 4.5rem; right: 3rem;">
+        <span>LAUNCH PROTOTYPE</span>
+        <svg width="18" height="10" viewBox="0 0 18 10" fill="none"><path d="M0 5h16M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>06 — Execution Roadmap</div>
+      <h2 class="reveal reveal-2 mt-6 max-w-4xl text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none">Phasing the Recommendation Engine.</h2>
+      <p class="muted text-base md:text-lg mt-5 max-w-3xl reveal reveal-3 font-light leading-snug">A disciplined, 3-phase rollout balancing immediate conversion wins with complex agentic architecture.</p>
 
       <!-- Squad -->
-      <div class="mt-12 border-t border-b hairline py-5 flex flex-wrap items-center gap-x-10 gap-y-3 reveal reveal-4">
-        <span class="eyebrow muted">Squad</span>
-        <span class="text-sm"><span class="mono text-2xl font-semibold mr-2">1</span>Engineering Manager</span>
-        <span class="text-sm"><span class="mono text-2xl font-semibold mr-2">7</span>Senior Full-Stack Engineers</span>
-        <span class="text-sm"><span class="mono text-2xl font-semibold mr-2">1</span>Product Designer</span>
+      <div class="mt-8 border-t border-b hairline py-3 flex flex-wrap items-center gap-x-8 gap-y-2 reveal reveal-4">
+        <span class="eyebrow muted">Resourcing</span>
+        <span class="text-sm"><span class="mono font-bold mr-2">7</span>Full-Stack Engineers</span>
+        <span class="mono text-xs muted">·</span>
+        <span class="text-sm"><span class="mono font-bold mr-2">1</span>Eng Manager</span>
+        <span class="mono text-xs muted">·</span>
+        <span class="text-sm"><span class="mono font-bold mr-2">1</span>Product Designer</span>
+        <span class="mono text-xs muted">·</span>
+        <span class="text-sm"><span class="mono font-bold mr-2">1</span>Product Manager</span>
       </div>
 
       <!-- Phases -->
-      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x hairline">
-        <div class="md:pr-8 py-6 md:py-0 reveal reveal-5">
-          <div class="flex items-baseline justify-between mb-4">
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-0">
+        <!-- Phase 01 -->
+        <div class="border-t-2 border-black md:border-r hairline pt-5 md:pr-6 pb-6 md:pb-0 reveal reveal-5">
+          <div class="flex items-baseline justify-between mb-5">
             <div class="eyebrow">Phase 01</div>
-            <div class="mono text-xs muted">MO 1–2</div>
+            <div class="mono text-xs muted">MONTHS 1–2</div>
           </div>
-          <h3 class="h-2 mb-4">Foundation &amp; Trust</h3>
-          <p class="text-sm muted leading-relaxed">Deploy <span class="text-black font-semibold">3 engineers</span> to build the Traveler DNA pipeline. Deploy <span class="text-black font-semibold">4 engineers</span> to rebuild UI sort logic — deprioritizing "Sponsored" listings and introducing Colleague Social Proof tags.</p>
+          <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight mb-3">Foundation &amp; Trust</h3>
+          <p class="text-sm muted leading-snug mb-5">Establish the core data pipeline and user trust.</p>
+          <ul class="space-y-2.5 border-t hairline pt-4">
+            <li class="flex gap-3 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Personalized ranking (history + popularity)</span></li>
+            <li class="flex gap-3 text-sm"><span class="mono text-xs muted pt-1 shrink-0">b</span><span>Social proof UI — "Booked by X colleagues"</span></li>
+            <li class="flex gap-3 text-sm"><span class="mono text-xs muted pt-1 shrink-0">c</span><span>Proprietary post-checkout AI reviews</span></li>
+          </ul>
         </div>
-        <div class="md:px-8 py-6 md:py-0 reveal reveal-6">
-          <div class="flex items-baseline justify-between mb-4">
+        <!-- Phase 02 -->
+        <div class="border-t-2 border-black md:border-r hairline pt-5 md:px-6 pb-6 md:pb-0 reveal reveal-6">
+          <div class="flex items-baseline justify-between mb-5">
             <div class="eyebrow">Phase 02</div>
-            <div class="mono text-xs muted">MO 3–5</div>
+            <div class="mono text-xs muted">MONTHS 3–5</div>
           </div>
-          <h3 class="h-2 mb-4">NLP &amp; Context</h3>
-          <p class="text-sm muted leading-relaxed">Integrate natural language search — <span class="italic text-black">"Quiet hotel near Javits Center with a gym under $250."</span> The engine dynamically weights against corporate policy guardrails.</p>
+          <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight mb-3">Context &amp; NLP</h3>
+          <p class="text-sm muted leading-snug mb-5">Layering semantic search and explainability.</p>
+          <ul class="space-y-2.5 border-t hairline pt-4">
+            <li class="flex gap-3 text-sm"><span class="mono text-xs muted pt-1 shrink-0">a</span><span>Natural language preference routing</span></li>
+            <li class="flex gap-3 text-sm"><span class="mono text-xs muted pt-1 shrink-0">b</span><span>Generative "Why recommended" summaries</span></li>
+            <li class="flex gap-3 text-sm"><span class="mono text-xs muted pt-1 shrink-0">c</span><span>"Ask about this hotel" context panel</span></li>
+          </ul>
         </div>
-        <div class="md:pl-8 py-6 md:py-0 reveal reveal-7 relative">
-          <div class="absolute -top-2 right-0 eyebrow accent-bg text-black px-2 py-0.5">NORTH STAR</div>
-          <div class="flex items-baseline justify-between mb-4">
+        <!-- Phase 03 -->
+        <div class="border-t-2 pt-5 md:pl-6 pb-6 md:pb-0 reveal reveal-7 relative" style="border-top-color: var(--accent);">
+          <div class="flex items-baseline justify-between mb-5">
             <div class="eyebrow accent">Phase 03</div>
-            <div class="mono text-xs muted">MO 6+</div>
+            <div class="mono text-xs muted">MONTHS 6+</div>
           </div>
-          <h3 class="h-2 mb-4">Autonomous Booking</h3>
-          <p class="text-sm muted leading-relaxed">Zero-click push notifications triggered by flight bookings, instantly recommending the single best hotel. Time-to-book: <span class="text-black font-semibold">seconds</span>.</p>
+          <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight mb-3">Agentic Autonomy</h3>
+          <p class="text-sm muted leading-snug mb-5">Moving from recommendation to autonomous execution.</p>
+          <ul class="space-y-2.5 border-t hairline pt-4">
+            <li class="flex gap-3 text-sm"><span class="mono text-xs accent pt-1 shrink-0">a</span><span>Agentic actions inside the Ask panel</span></li>
+            <li class="flex gap-3 text-sm"><span class="mono text-xs accent pt-1 shrink-0">b</span><span>Slack agent for zero-UI booking</span></li>
+          </ul>
         </div>
-      </div>
-
-      <!-- Launch prototype -->
-      <div class="mt-16 flex items-center gap-6 reveal reveal-8">
-        <button class="launch-btn">
-          <span>LAUNCH PROTOTYPE</span>
-          <svg width="18" height="10" viewBox="0 0 18 10" fill="none"><path d="M0 5h16M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5"/></svg>
-        </button>
-        <div class="mono text-xs muted hidden md:block">INTERACTIVE PREVIEW · RECOMMENDATION ENGINE</div>
       </div>
     </div>
   </section>
 
-  <!-- SLIDE 08: DATA STRATEGY -->
+  <!-- SLIDE 08: DATA STRATEGY & KPIs -->
   <section class="slide dark" data-slide="08" data-label="Data">
     <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>07 — Data Strategy &amp; Telemetry</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-5xl">Data is our distribution moat.</h2>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>07 — Data Strategy &amp; KPIs</div>
+      <h2 class="reveal reveal-2 mt-8 max-w-5xl text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight leading-snug">
+        Hypothesis: If we use personal + company + contextual signals to power our ranking, <span class="muted font-light">we'll increase search-to-book conversion by 25%+ and become the default platform for repeat travelers —</span> not because of price, but because of intelligence.
+      </h2>
 
-      <!-- Baseline massive numbers -->
-      <div class="mt-14 border-t hairline-inverse">
-        <div class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x hairline-inverse">
-          <div class="py-8 md:pr-10 reveal reveal-3">
-            <div class="eyebrow muted mb-6">Time-to-Book</div>
-            <div class="flex items-baseline gap-4">
-              <span class="num-xl muted line-through decoration-1">6–8</span>
-              <span class="num-xl accent">&lt;2</span>
-            </div>
-            <div class="mono text-xs muted mt-3">MINUTES · TARGET</div>
-          </div>
-          <div class="py-8 md:px-10 reveal reveal-4">
-            <div class="eyebrow muted mb-6">Search → Book Conversion</div>
-            <div class="flex items-baseline gap-4">
-              <span class="num-xl muted">3–5%</span>
-            </div>
-            <div class="mono text-xs accent mt-3">+150 BPS LIFT GOAL</div>
-          </div>
-          <div class="py-8 md:pl-10 reveal reveal-5">
-            <div class="eyebrow muted mb-6">Platform Leakage</div>
-            <div class="num-xl">30%</div>
-            <div class="mono text-xs muted mt-3">ABANDON TO CONSUMER OTAS</div>
-          </div>
+      <!-- KPI Grid -->
+      <div class="mt-12 border-t hairline-inverse">
+        <!-- Row: North Star GBV/User -->
+        <div class="border-b hairline-inverse py-5 grid grid-cols-12 items-center gap-4 reveal reveal-3 relative">
+          <div class="absolute -left-4 md:-left-6 top-0 bottom-0 w-[3px] accent-bg"></div>
+          <div class="col-span-1 eyebrow accent">★</div>
+          <div class="col-span-7 md:col-span-5 text-2xl md:text-3xl font-bold tracking-tight">GBV per User</div>
+          <div class="col-span-4 md:col-span-3 eyebrow accent">North Star</div>
+          <div class="col-span-12 md:col-span-3 text-xs muted md:text-right">Incremental value per active traveler</div>
         </div>
-      </div>
-
-      <!-- Traveler DNA signals -->
-      <div class="mt-10 border-t hairline-inverse pt-8 grid grid-cols-1 md:grid-cols-4 gap-8 reveal reveal-6">
-        <div>
-          <div class="eyebrow muted mb-3">Traveler DNA · Data as a Product</div>
-          <p class="text-sm font-light leading-relaxed muted">Implicit signals compounding into personalization. Every booking makes the model smarter. Every smarter model raises switching costs.</p>
+        <!-- Metric 01 -->
+        <div class="border-b hairline-inverse py-5 grid grid-cols-12 items-center gap-4 reveal reveal-4">
+          <div class="col-span-1 mono text-xs muted">01</div>
+          <div class="col-span-7 md:col-span-5 text-base md:text-lg font-semibold">Search → Book Conversion Lift</div>
+          <div class="col-span-4 md:col-span-3 text-3xl md:text-4xl font-extrabold accent tracking-tight">+25%</div>
+          <div class="col-span-12 md:col-span-3 text-xs muted md:text-right">Over current baseline</div>
         </div>
-        <div>
-          <div class="eyebrow muted mb-2">Amenity Affinity</div>
-          <div class="num-md">82<span class="text-xl align-top muted">%</span></div>
-          <div class="h-px bg-white/20 mt-3"><div class="h-full accent-bg" style="width:82%"></div></div>
+        <!-- Metric 02 -->
+        <div class="border-b hairline-inverse py-5 grid grid-cols-12 items-center gap-4 reveal reveal-5">
+          <div class="col-span-1 mono text-xs muted">02</div>
+          <div class="col-span-7 md:col-span-5 text-base md:text-lg font-semibold">#1 Result Selection Rate</div>
+          <div class="col-span-4 md:col-span-3 text-3xl md:text-4xl font-extrabold accent tracking-tight">40%+</div>
+          <div class="col-span-12 md:col-span-3 text-xs muted md:text-right">Of bookings from the top result</div>
         </div>
-        <div>
-          <div class="eyebrow muted mb-2">Proximity Tolerance</div>
-          <div class="num-md">64<span class="text-xl align-top muted">%</span></div>
-          <div class="h-px bg-white/20 mt-3"><div class="h-full accent-bg" style="width:64%"></div></div>
+        <!-- Metric 03 -->
+        <div class="border-b hairline-inverse py-5 grid grid-cols-12 items-center gap-4 reveal reveal-6">
+          <div class="col-span-1 mono text-xs muted">03</div>
+          <div class="col-span-7 md:col-span-5 text-base md:text-lg font-semibold">Time-to-Book</div>
+          <div class="col-span-4 md:col-span-3 text-3xl md:text-4xl font-extrabold accent tracking-tight">&lt;60s</div>
+          <div class="col-span-12 md:col-span-3 text-xs muted md:text-right">From ~8 min · repeat travelers</div>
         </div>
-        <div>
-          <div class="eyebrow muted mb-2">Policy Utilization</div>
-          <div class="num-md">91<span class="text-xl align-top muted">%</span></div>
-          <div class="h-px bg-white/20 mt-3"><div class="h-full accent-bg" style="width:91%"></div></div>
+        <!-- Metric 04 -->
+        <div class="border-b hairline-inverse py-5 grid grid-cols-12 items-center gap-4 reveal reveal-7">
+          <div class="col-span-1 mono text-xs muted">04</div>
+          <div class="col-span-7 md:col-span-5 text-base md:text-lg font-semibold">Repeat Booking Rate</div>
+          <div class="col-span-4 md:col-span-3 text-3xl md:text-4xl font-extrabold accent tracking-tight">+20%</div>
+          <div class="col-span-12 md:col-span-3 text-xs muted md:text-right">Traveler retention signal</div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SLIDE 09: KPI TREE & ROLLOUT -->
-  <section class="slide" data-slide="09" data-label="KPIs">
-    <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>08 — PLG KPI Tree &amp; Rollout</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Rigor before optimism.</h2>
-
-      <div class="mt-16 border-t hairline grid grid-cols-1 md:grid-cols-12 gap-8 pt-10">
-        <div class="md:col-span-5 reveal reveal-3">
-          <div class="eyebrow muted mb-4">North Star</div>
-          <div class="h-hero font-extrabold">Incremental<br/>GBV / User</div>
-        </div>
-        <div class="md:col-span-4 reveal reveal-4">
-          <div class="eyebrow muted mb-4">Primary Metrics</div>
-          <div class="border-t hairline">
-            <div class="border-b hairline py-4 text-xl font-semibold">Task Success Time</div>
-            <div class="border-b hairline py-4 text-xl font-semibold">Search-to-Book Conversion</div>
-          </div>
-        </div>
-        <div class="md:col-span-3 reveal reveal-5">
-          <div class="eyebrow muted mb-4">Guardrails · Trade-offs</div>
-          <div class="border-t hairline">
-            <div class="border-b hairline py-4 text-sm">AOV vs. Policy Limits</div>
-            <div class="border-b hairline py-4 text-sm">Post-Booking Support OPEX</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Rollout -->
-      <div class="mt-16 border-t hairline pt-8 grid grid-cols-1 md:grid-cols-12 gap-8 items-baseline reveal reveal-6">
-        <div class="md:col-span-2">
-          <div class="eyebrow muted">Rollout Strategy</div>
-        </div>
-        <div class="md:col-span-2 num-lg">10%</div>
-        <div class="md:col-span-8">
-          <h3 class="text-2xl md:text-3xl font-bold tracking-tight">Holdout A/B · Frequent Transient Travelers</h3>
-          <p class="muted mt-3 text-base leading-relaxed font-light">Target travelers with 5+ past bookings, run over 3 sprints to validate GBV delta before full scale.</p>
+        <!-- Metric 05 -->
+        <div class="py-5 grid grid-cols-12 items-center gap-4 reveal reveal-8">
+          <div class="col-span-1 mono text-xs muted">05</div>
+          <div class="col-span-7 md:col-span-5 text-base md:text-lg font-semibold">Platform Win Rate vs. OTAs</div>
+          <div class="col-span-4 md:col-span-3 text-3xl md:text-4xl font-extrabold accent tracking-tight">↑</div>
+          <div class="col-span-12 md:col-span-3 text-xs muted md:text-right">Share of intent captured in-platform</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SLIDE 10: GTM -->
-  <section class="slide" data-slide="10" data-label="GTM">
+  <!-- SLIDE 09: GTM -->
+  <section class="slide" data-slide="09" data-label="GTM">
     <div class="slide-inner">
-      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>09 — Go-To-Market Alignment</div>
-      <h2 class="h-1 reveal reveal-2 mt-6 max-w-4xl">Orchestrating the PLG shift.</h2>
+      <div class="eyebrow accent reveal reveal-1 flex items-center gap-3"><span class="pulse-dot"></span>08 — Go-To-Market Alignment</div>
+      <h2 class="reveal reveal-2 mt-6 max-w-4xl text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05]">Orchestrating the PLG shift.</h2>
 
-      <div class="mt-16 border-t hairline">
+      <div class="mt-12 border-t hairline">
         <!-- Marketing -->
-        <div class="border-b hairline py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-3 market-row">
-          <div class="col-span-12 md:col-span-2 eyebrow accent">Marketing</div>
-          <div class="col-span-12 md:col-span-10">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">Repositioning the top-of-funnel.</h3>
-            <p class="muted mt-3 text-base leading-relaxed font-light">Shifting the Engine homepage from <span class="text-black font-normal">"Deskless/Construction"</span> to <span class="text-black font-normal">"The Ultimate Tool for High-Performance Knowledge Workers."</span></p>
+        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-start reveal reveal-3 market-row">
+          <div class="col-span-12 md:col-span-3 eyebrow accent md:pt-1">Marketing</div>
+          <div class="col-span-12 md:col-span-9">
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Repositioning the top-of-funnel.</h3>
+            <p class="muted mt-2 text-sm md:text-base leading-relaxed font-light">Shifting the Engine homepage from <span class="text-black font-normal">"Deskless/Construction"</span> to <span class="text-black font-normal">"The Ultimate Tool for High-Performance Knowledge Workers."</span></p>
           </div>
         </div>
         <!-- Sales -->
-        <div class="border-b hairline py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-4 market-row">
-          <div class="col-span-12 md:col-span-2 eyebrow accent">Sales / Success</div>
-          <div class="col-span-12 md:col-span-10">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">Evangelizing Employee Arbitrage ROI.</h3>
-            <p class="muted mt-3 text-base leading-relaxed font-light">Proving to Finance Managers that rewarding employees <span class="text-black font-normal">reduces total corporate travel OPEX.</span></p>
+        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-start reveal reveal-4 market-row">
+          <div class="col-span-12 md:col-span-3 eyebrow accent md:pt-1">Sales / Success</div>
+          <div class="col-span-12 md:col-span-9">
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Evangelizing Employee Arbitrage ROI.</h3>
+            <p class="muted mt-2 text-sm md:text-base leading-relaxed font-light">Proving to Finance Managers that rewarding employees <span class="text-black font-normal">reduces total corporate travel OPEX.</span></p>
           </div>
         </div>
         <!-- Legal -->
-        <div class="border-b hairline py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-5 market-row">
-          <div class="col-span-12 md:col-span-2 eyebrow accent">Legal &amp; Compliance</div>
-          <div class="col-span-12 md:col-span-10">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">Partnering early on data governance.</h3>
-            <p class="muted mt-3 text-base leading-relaxed font-light">Ensuring <span class="text-black font-normal">Traveler DNA collection and AI ingestion</span> respect global B2B privacy clauses and corporate firewalls.</p>
+        <div class="border-b hairline py-8 grid grid-cols-12 gap-6 items-start reveal reveal-5 market-row">
+          <div class="col-span-12 md:col-span-3 eyebrow accent md:pt-1">Legal &amp; Compliance</div>
+          <div class="col-span-12 md:col-span-9">
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Partnering early on data governance.</h3>
+            <p class="muted mt-2 text-sm md:text-base leading-relaxed font-light">Ensuring <span class="text-black font-normal">Traveler DNA collection and AI ingestion</span> respect global B2B privacy clauses and corporate firewalls.</p>
           </div>
         </div>
         <!-- Supplier Ops -->
-        <div class="py-10 grid grid-cols-12 gap-6 items-baseline reveal reveal-6 market-row">
-          <div class="col-span-12 md:col-span-2 eyebrow accent">Supplier Ops</div>
-          <div class="col-span-12 md:col-span-10">
-            <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">Securing unbeatable wholesale rates.</h3>
-            <p class="muted mt-3 text-base leading-relaxed font-light">Working with inventory teams to secure <span class="text-black font-normal">B2B wholesale rates (bedbanks/CUGs)</span> that make the Recommendation Engine's pricing unbeatable.</p>
+        <div class="py-8 grid grid-cols-12 gap-6 items-start reveal reveal-6 market-row">
+          <div class="col-span-12 md:col-span-3 eyebrow accent md:pt-1">Supplier Ops</div>
+          <div class="col-span-12 md:col-span-9">
+            <h3 class="text-xl md:text-2xl font-bold tracking-tight leading-tight">Securing unbeatable wholesale rates.</h3>
+            <p class="muted mt-2 text-sm md:text-base leading-relaxed font-light">Working with inventory teams to secure <span class="text-black font-normal">B2B wholesale rates (bedbanks/CUGs)</span> that make the Recommendation Engine's pricing unbeatable.</p>
           </div>
         </div>
       </div>
 
       <!-- Footer sign-off -->
-      <div class="mt-20 border-t hairline pt-8 flex items-center justify-between reveal reveal-7">
-        <div class="mono text-xs muted tracking-widest">END · ENGINE · PRINCIPAL PM VISION</div>
+      <div class="mt-12 border-t hairline pt-6 flex items-center justify-between reveal reveal-7">
+        <div class="mono text-xs muted tracking-widest">END · ENGINE · VISION AND EXECUTION PLAN</div>
         <button onclick="goToSlide(0)" class="hover-line mono text-xs font-semibold">↑ RETURN TO TOP</button>
       </div>
     </div>
@@ -693,14 +776,14 @@
   let currentIndex = 0;
   const io = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting && entry.intersectionRatio > 0.55) {
+      if (entry.isIntersecting && entry.intersectionRatio > 0.25) {
         const idx = slides.indexOf(entry.target);
         entry.target.classList.add('is-visible');
         currentIndex = idx;
         updateChrome(idx);
       }
     });
-  }, { root: deck, threshold: [0, 0.55, 1] });
+  }, { root: deck, threshold: [0, 0.25, 0.5, 1] });
   slides.forEach(s => io.observe(s));
 
   function updateChrome(idx) {
